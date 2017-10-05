@@ -67,10 +67,6 @@ $(function () {
     function onConnect() {
         // Once a connection has been made, make a subscription and send a message.
         console.log("onConnect");
-        var topic1 = "/iot/+/temp"
-        var topic2 = "/iot/+/humid"
-        client.subscribe(topic1);
-        client.subscribe(topic2);
     }
 
     // called when the client loses its connection
